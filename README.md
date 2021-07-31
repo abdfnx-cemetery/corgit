@@ -75,7 +75,7 @@ but if you type `cgit sl`
 
 ![Result](https://dev-to-uploads.s3.amazonaws.com/i/ctgcbxw1ywz6y1u4jdri.png)
 
-and you can check more in [cgit wikis](/wiki)
+and you can check more in [cgit wikis](https://github.com/Dev-X-Team/corgit/wiki)
 
 > CorGit is a Cli program can automate init git, push commits and pull.
 
