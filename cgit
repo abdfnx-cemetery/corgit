@@ -5,9 +5,9 @@ cona="commit name: "
 brna="branch name: "
 repourl="repo url: "
 
-lv=$(curl --silent "https://api.github.com/repos/secman-team/corgit/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+lv=$(curl --silent "https://api.github.com/repos/abdfnx/corgit/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 ver="cgit@$lv"
-crepo="Dev-x-Team/corgit"
+crepo="abdfnx/corgit"
 UNAME=$(uname)
 
 function usage() {
@@ -52,7 +52,7 @@ function version() {
 
 function desc() {
     local d=(
-        "CorGit is a Cli program can automate init git, push commits and pull."
+        "CorGit is a Cli program can automate init git, push commits and pull. powered by @abdfnx"
     )
 
     printf "%s\n" "${d[@]}"
@@ -142,7 +142,7 @@ dvf() {
         secman repo view $crepo
 
     else
-        echo "You must install github cli, https://cli.github.com"
+        echo "You must install secman, visit https://cli.secman.dev"
     fi
 }
 
