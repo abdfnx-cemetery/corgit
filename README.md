@@ -1,4 +1,4 @@
-# [<img src=".github/CG.svg" align="center">]()
+# [<img src="https://raw.githubusercontent.com/abdfnx/corgit/HEAD/.github/CG.svg" align="center">]()
 
 [git][gitUrl] is one of the most used tools in the world,
 <br />
@@ -10,18 +10,18 @@ corgit'll do all this boring work,
 
 ```sh
 # init
-❯ git init
-❯ git add .
-❯ git commit -m "$COMMIT_MSG"
-❯ git branch -M $BRANCH_NAME
-❯ git remote add origin $REPO_URL
-❯ git push -u origin $BRANCH_NAME
+git init
+git add .
+git commit -m "$COMMIT_MSG"
+git branch -M $BRANCH_NAME
+git remote add origin $REPO_URL
+git push -u origin $BRANCH_NAME
 ```
 
 you should type 6 lines, in corgit you can do it simpley
 
 ```sh
-❯ cgit i
+cgit i
 
 # it's well ask you, commit message, branch name, repo url, and push it
 ```
@@ -34,15 +34,15 @@ in original git
 
 ```sh
 # push
-❯ git add .
-❯ git commit -m "$COMMIT_MSG"
-❯ git push
+git add .
+git commit -m "$COMMIT_MSG"
+git push
 ```
 
 in **cgit**
 
 ```sh
-❯ cgit ph
+cgit ph
 
 # it's well just ask you commit msg
 ```
@@ -56,7 +56,7 @@ in orginal git, if you type `git status`
 it's well show you like this
 
 ```sh
-❯ git status
+git status
 
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -98,17 +98,17 @@ and you can check more in [cgit wikis](https://github.com/Dev-X-Team/corgit/wiki
 copy this 👇 and paste it in the __terminal__
 
 ```sh
-❯ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Dev-x-Team/corgit/main/setup)"
+curl -fsSL https://abdfnx.github.io/corgit/setup | bash
 ```
 
 ### Test it
 
 ```bash
-❯ cgit <command>
+cgit <command>
 
 # for help
 
-❯ cgit -h
+cgit -h
 
 Usage:
     cgit -h: help (this output)
@@ -123,9 +123,9 @@ Usage:
     cgit pl: fetch and pull
 
 Setup:
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Dev-x-Team/corgit/main/setup)"
+    curl -fsSL https://abdfnx.github.io/corgit/setup | bash
 
-you can open an issue if you had any problem in https://github.com/Dev-x-Team/corgit/issues
+you can open an issue if you had any problem in https://github.com/abdfnx/corgit/issues
 ```
 
 type anyone and hack
