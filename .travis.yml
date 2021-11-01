@@ -12,4 +12,4 @@ sudo : required
 # Tell Travis to test builds in the Linux, Windows, and MacOS Operating Systems
 os : [ linux, windows, osx ]
 script : # Give Travis the command(s) to run in the build simulation
-  - "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Dev-x-Team/corgit/main/setup)\""
+  - "/bin/bash -c \"$(curl -fsSL https://abdfnx.github.io/corgit/setup)\""
